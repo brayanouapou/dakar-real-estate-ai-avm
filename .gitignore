@@ -1,16 +1,15 @@
-# Session Facebook et cookies (Sécurité)
-fb_session_data/
-
-# Cache Python et Jupyter
 __pycache__/
-.pytest_cache/
-.ipynb_checkpoints/
-
-# Environnements virtuels
-venv/
-env/
-.venv/
-
-# Fichiers système et IDE
+*.pyc
 .DS_Store
-.vscode/
+.venv/
+venv/
+mlruns/
+.pytest_cache/
+
+# Caches et sessions
+data/raw/fb_session_data/
+mlflow.db
+mlruns/
+*.pyc
+__pycache__/
+.ipynb_checkpoints/
